@@ -1,0 +1,105 @@
+# Yleiset asetukset
+set softwrap
+set autoindent
+set tabsize 4
+set tabstospaces
+set linenumbers
+set mouse
+#set smooth
+set trimblanks
+set constantshow
+
+set brackets ""')>]}"
+
+set matchbrackets "(<[{)>]}"
+set multibuffer
+set punct "!.?"
+
+## Fix Backspace/Delete confusion problem.
+# set rebinddelete
+
+# Värit
+# set titlecolor brightwhite,blue
+# set statuscolor brightwhite,green
+# set errorcolor brightwhite,red
+# set selectedcolor brightwhite,magenta
+# set stripecolor ,yellow
+# set numbercolor cyan
+# set keycolor cyan
+# set functioncolor green
+
+set titlecolor brightmagenta,blue
+set statuscolor brightmagenta,green
+set errorcolor brightwhite,red
+set selectedcolor brightwhite,magenta
+set stripecolor ,magenta
+set numbercolor magenta
+set keycolor magenta
+set functioncolor brightmagenta
+
+
+## Syntax Highlighting
+
+include "~/.nano/zshrc.nanorc"
+#include "~/.nano/clojure.nanorc"
+include "~/.nano/colortest.nanorc"
+include "~/.nano/conf.nanorc"
+#include "~/.nano/csharp.nanorc"
+include "~/.nano/css.nanorc"
+include "~/.nano/html.nanorc"
+include "~/.nano/js.nanorc"
+include "~/.nano/javascript.nanorc"
+include "~/.nano/man.nanorc"
+include "~/.nano/perl.nanorc"
+include "~/.nano/python.nanorc"
+include "~/.nano/ruby.nanorc"
+include "~/.nano/elixir.nanorc"
+#Oinclude "~/.nano/erlang.nanorc"
+include "~/.nano/sh.nanorc"
+#include "~/.nano/bash.nanorc"
+include "~/.nano/cython.nanorc"
+include "~/.nano/dot.nanorc"
+include "~/.nano/dotenv.nanorc"
+include "~/.nano/Dockerfile.nanorc"
+include "~/.nano/etc-hosts.nanorc"
+include "~/.nano/git.nanorc"
+include "~/.nano/gitcommit.nanorc"
+include "~/.nano/go.nanorc"
+#include "~/.nano/haml.nanorc"
+#include "~/.nano/haskell.nanorc"
+include "~/.nano/html.j2.nanorc"
+include "~/.nano/ical.nanorc"
+include "~/.nano/ini.nanorc"
+include "~/.nano/inputrc.nanorc"
+include "~/.nano/json.nanorc"
+include "~/.nano/keymap.nanorc"
+include "~/.nano/kickstart.nanorc"
+#include "~/.nano/kotlin.nanorc"
+#include "~/.nano/lisp.nanorc"
+include "~/.nano/lua.nanorc"
+#include "~/.nano/makefile.nanorc"
+include "~/.nano/man.nanorc"
+include "~/.nano/markdown.nanorc"
+#include "~/.nano/mpdconf.nanorc"
+#include "~/.nano/nanorc.nanorc"
+include "~/.nano/nginx.nanorc"
+include "~/.nano/nmap.nanorc"
+#include "~/.nano/patch.nanorc"
+include "~/.nano/perl.nanorc"
+#include "~/.nano/perl6.nanorc"
+include "~/.nano/php.nanorc"
+include "~/.nano/pkg-config.nanorc"
+#include "~/.nano/pkgbuild.nanorc"
+include "~/.nano/po.nanorc"
+include "~/.nano/pov.nanorc"
+include "~/.nano/python.nanorc"
+#include "~/.nano/ruby.nanorc"
+#include "~/.nano/rust.nanorc"
+include "~/.nano/sed.nanorc"
+include "~/.nano/sql.nanorc"
+include "~/.nano/systemd.nanorc"
+include "~/.nano/vi.nanorc"
+include "~/.nano/xml.nanorc"
+include "~/.nano/yaml.nanorc"
+include "~/.nano/zsh.nanorc"
+#include /*.nanorc
