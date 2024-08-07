@@ -1,0 +1,40 @@
+{{- if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+
+brew bundle --no-lock --file=/dev/stdin <<EOF
+tap "homebrew/bundle"
+tap "homebrew/services"
+brew "coreutils"
+brew "asdf"
+brew "bat"
+brew "bitwarden-cli"
+brew "chezmoi"
+brew "curl"
+brew "ffmpeg"
+brew "git"
+brew "htop"
+brew "iftop"
+brew "jq"
+brew "ollama", restart_service: true
+brew "wget"
+brew "yazi"
+brew "zoxide"
+cask "appcleaner"
+cask "cyberduck"
+cask "docker"
+cask "firefox"
+cask "font-consolas-for-powerline"
+cask "font-hack-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
+cask "kitty"
+cask "macs-fan-control"
+cask "raycast"
+cask "slack"
+cask "tidal"
+cask "visual-studio-code"
+cask "vlc"
+cask "zoom"
+cask "google-chrome"
+EOF
+{{ end -}}
+
